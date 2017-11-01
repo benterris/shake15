@@ -13,12 +13,19 @@ Shake15 is a small android game I made in my spare time. The aim is to shake you
 
 Welcome screen :  
 
-![welcome](img/welcome.jpg)
+<div align="center">
+<img src="img/welcome.jpg" alt="welcome" style="width: 200px;">
+</div>
 
-In game screen :  
 
-![in game screen](img/ingame.jpg)  
+In game screen :
 
-Highscores screen :  
+<div align="center">
+<img src="img/ingame.jpg" alt="In game" style="width: 200px;">
+</div>
 
-![high score screen](img/highscores.jpg)  
+Highscores screen :
+
+<div align="center">
+<img src="img/highscores.jpg" alt="Highscores" style="width: 200px;">
+</div>
