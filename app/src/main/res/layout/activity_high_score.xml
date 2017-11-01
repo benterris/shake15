@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/colorBackground"
+    tools:context="com.benjamin.android.shake15.HighScoreActivity">
+
+    <TextView
+        android:typeface="monospace"
+        android:textColor="@color/colorScore"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titleHighscores"
+        />
+
+    <TextView
+        android:typeface="monospace"
+        android:textColor="@color/colorTimer"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/highScoreTimeLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hstl" />
+
+
+    <TextView
+        android:id="@+id/highScoreFixedNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hsfn"
+        android:textColor="@color/colorTimer"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btnResetHighScore"
+        android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/colorTimer"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/btnBackToMenu"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Back to menu" />
+
+</android.widget.LinearLayout>
